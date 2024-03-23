@@ -1,0 +1,36 @@
+.form-container{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.todo-input{
+    background-color: rgb(251, 251, 251);
+    padding: 0.4em;
+    font-size: 1em;
+    margin-bottom: 2em;
+    border-radius: 0.2em;
+    border: none;
+    box-sizing: border-box;
+    width: 40vw;
+}
+
+.sub-button{
+    margin-left: -4vw;
+    width: 4vw;
+    height:2.4em;
+    border-style: none;
+    border-radius: 0.2em;
+    background-color:rgb(52, 45, 70);
+    color: antiquewhite;
+
+}
+
+.sub-button:hover{
+    color: rgb(255, 101, 40);
+    cursor: pointer;
+    font-weight: 400;
+}

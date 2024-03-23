@@ -1,0 +1,65 @@
+.task-container{
+    background-color: white;
+    font-size: 0.6em;
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 2px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    box-shadow: 1px 1px 3em rgb(224, 224, 224);
+    margin-bottom: 1em;
+    cursor: pointer;
+    flex: 1 0 auto;
+}
+
+.task-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: #616161;
+    min-height: none;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    /* word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word; */
+}
+
+.stroke{
+    text-decoration: line-through;
+    color: #a6a6a6;
+}
+
+.btn-div{
+    margin-left: 1.5rem;
+}
+
+.btn-div :hover{
+    color: rgb(237, 208, 45);
+}
+
+.btn-div2{
+    flex: 0 0 auto;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 1.5em;
+}
+
+.to-doing-btn{
+    width: 18px;
+    height: 18px;
+    color: #616161;
+}
+
+.del-btn{
+    width: 20px;
+    height: 20px;
+    color: #616161;
+}
+
+.del-btn:hover{
+    color: rgb(211, 46, 46);
+}
